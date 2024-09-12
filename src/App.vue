@@ -1,4 +1,9 @@
 <script>
+export default {
+  card: {
+
+  }
+}
 
 </script>
 
@@ -346,6 +351,11 @@ header ul li a.active{
 .M-BLUE{
   background-color: #0282f9;
 }
+.M-BLUE ul li a:hover{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: yellow;
+}
 .M-BLUE {
   text-align: center;
   padding: 20px 0;
@@ -412,6 +422,8 @@ footer ul li a {
 footer ul li a:hover,
 footer ul li a.active{
   color: #0282f9;
+  text-transform: uppercase;
+  font-size: 0.7rem;
   
 }
 .F-top{
